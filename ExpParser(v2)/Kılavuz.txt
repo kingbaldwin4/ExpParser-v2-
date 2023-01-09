@@ -1,0 +1,12 @@
+Bu sefer katsayısı da olan ve üslü olarak verilen x'ler arası 4 işlem(toplama-çıkarma-çarpma-bölme) ve bunun yanı sıra sabit katsayı da içeren ifadeler "işlem1,işlem2,işlem3,işlem4 ve işlem5.txt" adlı dosyalarda yazılmıştır.
+Bu projenin amacı bu işlemler sonucu ortaya çıkan en sade ifadeyi ekranda göstermektir
+
+javacc ExpParser.jj
+javac *.java
+java ExpParser < islem1.txt
+
+bu komutlarla proje çalıştırılabilir
+
+projeyi kullanmak için java'ya ve javacc parser'ına ihtiyacınız vardır
+
+javacc link: https://drive.google.com/file/d/1rY7HsGAE6Km3v7TN9EujRpwr3ft22V5v/view
